@@ -20,7 +20,6 @@ data = [        [10,10], [15,30], [45,77],  [20,50],  [60,50],
 
 ########################### CREATE INPUT ################################
 
-# FUNCTION THAT USES RANDOM SEQUENCE TO BUILD A COORDINATE LIST
 def coords_indx_res():
     '''Creating a rout for the traveling salesman by first creating a random
        sequence of 40 non-repeating integers, and then applying restrictions
@@ -87,7 +86,6 @@ def extract(coords_list_in, coords_indx):
 
 # OUTPUTTING COORDINATES TO coords_list
 coords_list, sorty = extract(data, coords_indx)
-
 
 
 ############################## SIMULATED ANNEALING #######################################
